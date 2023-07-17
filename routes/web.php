@@ -144,6 +144,19 @@ Route::get('/scholarship-facility', [IndexController::class, 'scholarshipFacilit
 Route::get('/bus-facility', [IndexController::class, 'busFacility'])->name('busFacility');
 Route::get('/hostel-facility', [IndexController::class, 'hostelFacility'])->name('hostelFacility');
 Route::get('/faq', [IndexController::class, 'faq'])->name('faq');
+Route::get('/online-form', [IndexController::class, 'onlineForm'])->name('onlineForm');
+
+Route::get('/academic-programme', [IndexController::class, 'academicProgramme'])->name('academicProgramme');
+Route::get('/academic-facilitie', [IndexController::class, 'academicFacilities'])->name('academicFacilities');
+Route::get('/campus-facilities', [IndexController::class, 'campusFacilities'])->name('campusFacilities');
+Route::get('/student-welfareServices', [IndexController::class, 'studentWelfareServices'])->name('studentWelfareServices');
+Route::get('/sports-facilities', [IndexController::class, 'sportsFacilities'])->name('sportsFacilities');
+Route::get('/cultural-facility', [IndexController::class, 'culturalFacility'])->name('culturalFacility');
+
+
+
+
+
 
 
 

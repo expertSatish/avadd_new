@@ -89,31 +89,28 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="https://www.google.co.in/" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admission</a>
                                 <ul class="dropdown-menu" aria-labelledby="about">
-                                    <li><a class="dropdown-item" href="#!">Admission Procedure</a></li>
-                                    <li><a class="dropdown-item" href="#!">Download Admission Form</a></li>
-                                    <li><a class="dropdown-item" href="#!">Value Addition</a></li>
-                                    <li><a class="dropdown-item" href="#!">Campus Tour</a></li>
-                                </ul>
+                                        <li><a class="dropdown-item" href="{{asset('assets/include/images/form.pdf')}}" download target="_blank">Download Admission Form</a></li>
+                                        <li><a class="dropdown-item" href="{{route('onlineForm')}}" target="_blank">Apply Online</a></li>
+                                    </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#!" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Placement</a>
                                 <ul class="dropdown-menu" aria-labelledby="about">
                                     <li><a class="dropdown-item" href="{{route('placementCell')}}">Placement Cell</a></li>
                                     <li><a class="dropdown-item" href="{{route('careerDevelopmant')}}">Career Development</a></li>
-                                    <li><a class="dropdown-item" href="{{route('forRecruiters')}}">For Recruiters</a></li>
                                     <li><a class="dropdown-item" href="{{route('placementInternship')}}">Placement & Internship</a></li>
                                 </ul>
                             </li>
-                            <?php
-                            $StudentService = \App\Models\StudentService::getSeviceData();
-                            ?>
+                           
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#!" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student Service</a>
                                 <ul class="dropdown-menu" aria-labelledby="about">
-                                @foreach ($StudentService as $data)
-                                    <li><a class="dropdown-item" href="{{ url('student-service/'.$data->slug) }}">{{ $data->title }}</a></li>
-                                    @endforeach
-                                   
+                                    <li><a class="dropdown-item" href="{{route('academicProgramme')}}">Academic Programme</a></li>
+                                    <li><a class="dropdown-item" href="{{route('academicFacilities')}}">Academic Facility</a></li>
+                                    <li><a class="dropdown-item" href="{{route('campusFacilities')}}">Campus Facility</a></li>
+                                    <li><a class="dropdown-item" href="{{route('studentWelfareServices')}}">Student Welfare Services & Internship</a></li>
+                                    <li><a class="dropdown-item" href="{{route('sportsFacilities')}}">Sports Facility</a></li>
+                                    <li><a class="dropdown-item" href="{{route('culturalFacility')}}">Cultural Facility</a></li>
                                 </ul>
                             </li>
                             <?php

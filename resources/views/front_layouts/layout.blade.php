@@ -72,7 +72,7 @@
      <div class="admission-btn">
         <ul class="admission-btn-list">
             <li><a href="{{route('enquiry')}}" class="form-bt"><span><i class="fas fa-university"></i></span> Admission Enquiry Form</a></li>
-            <li><a href="online_form.html" target="_blank" class="form-bt"><span><i class="fas fa-university"></i></span> Online Admission Form</a></li>
+            <li><a href="{{route('onlineForm')}}" target="_blank" class="form-bt"><span><i class="fas fa-university"></i></span> Online Admission Form</a></li>
         </ul>
     </div>
     <!--============================== Footer End ==============================-->

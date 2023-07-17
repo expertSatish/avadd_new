@@ -270,5 +270,33 @@ class IndexController extends Controller
     {
         return view('frontPages.sports_day');
     }
+
+    public function onlineForm(){
+        return view('frontPages.online_form');
+    }
+
+    public function academicProgramme()
+    {
+        return view('frontPages.academic-programme');
+    }
+    public function academicFacilities()
+    {
+        return view('frontPages.academic-facilities');
+    }
+    public function campusFacilities()
+    {
+        return view('frontPages.campus-facilities');
+    }
+    public function studentWelfareServices()
+    {
+        return view('frontPages.student-welfare-services');
+    }
+    public function sportsFacilities(){
+        return view('frontPages.sports-facilities');
+
+    }
+    public function culturalFacility(){
+        return view('frontPages.Cultural-facility');
+    }
     
 }

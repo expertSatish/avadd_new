@@ -15,10 +15,10 @@
                 </div> 
                 <div class="col-md-5">
                     <div class="faculty-img">
-                        <img src="{{asset('assets/front/images/wi-fi-img.jpeg')}}" alt="">                        
+                    <img src="{{asset('assets/front/images/library-img.jpeg')}}" alt="">                        
                     </div>
                 </div>                           
             </div>
         </div>
     </div>
-@endsection
+    @endsection
