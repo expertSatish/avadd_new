@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
@@ -79,6 +80,7 @@
     <script src="{{ asset('template/include/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('template/include/js/main.js ') }}"></script>
     <script src="{{ asset('template/include/js/theme_fornt_change.js ') }}"></script>
+
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script>
         function googleTranslateElementInit() {

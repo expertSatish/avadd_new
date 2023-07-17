@@ -112,6 +112,9 @@ Route::get('/placement-cell', [IndexController::class, 'placementCell'])->name('
 Route::get('/career-development', [IndexController::class, 'careerDevelopmant'])->name('careerDevelopmant');
 Route::post('/career-development/store', [IndexController::class, 'saveCareerForm'])->name('saveCareerForm');
 Route::post('/contact-save', [IndexController::class, 'postData']);
+Route::get('/annaul-day', [IndexController::class, 'annualDay'])->name('annual-day');
+Route::get('/sports-day', [IndexController::class, 'sportsday'])->name('sports-day');
+
 
 
 

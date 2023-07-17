@@ -262,5 +262,13 @@ class IndexController extends Controller
         }
     }
 
+    public function annualDay()
+    {
+        return view('frontPages.annual_day');
+    }
+    public function sportsday()
+    {
+        return view('frontPages.sports_day');
+    }
     
 }

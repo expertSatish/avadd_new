@@ -131,8 +131,8 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#!" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Event</a>
                                 <ul class="dropdown-menu" aria-labelledby="about">
-                                    <li><a class="dropdown-item" href="#!">Annual Day</a></li>
-                                    <li><a class="dropdown-item" href="#!">Sports Day</a></li>
+                                    <li><a class="dropdown-item" href="{{route('annual-day')}}">Annual Day</a></li>
+                                    <li><a class="dropdown-item" href="{{route('sports-day')}}">Sports Day</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
